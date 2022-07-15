@@ -1,0 +1,27 @@
+.img1{
+    width: 300px;
+    height: 180px;
+    margin-top: 5px;
+}
+
+.featured {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.courseViewTitle{
+    font-size: 27px;
+    font-weight: 550;
+    color: #03045E
+}
+
+.courseGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+    gap: 35px;
+}
+
+.iconContainer {
+    position:relative;
+}

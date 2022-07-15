@@ -1,0 +1,116 @@
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "email": "user1@mail.utoronto.ca",
+  "password": "user1",
+  "role": "student",
+  "profilePicture": "picture"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "user2",
+  "email": "user2@mail.utoronto.ca",
+  "password": "user2",
+  "role": "student",
+  "profilePicture": "picture2"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "user3",
+  "email": "user3@mail.utoronto.ca",
+  "password": "user3",
+  "role": "student",
+  "profilePicture": "picture3"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "user4",
+  "email": "user4@mail.utoronto.ca",
+  "password": "user4",
+  "role": "student",
+  "profilePicture": "picture"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "user5",
+  "email": "user5@mail.utoronto.ca",
+  "password": "user5",
+  "role": "student",
+  "profilePicture": "picture"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "tutor1",
+  "email": "tutor1@mail.utoronto.ca",
+  "password": "tutor1",
+  "role": "tutor",
+  "profilePicture": "picture"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "tutor2",
+  "email": "tutor2@mail.utoronto.ca",
+  "password": "tutor2",
+  "role": "tutor",
+  "profilePicture": "picture"
+}
+
+###
+POST http://localhost:5002/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "tutor3",
+  "email": "tutor3@mail.utoronto.ca",
+  "password": "tutor3",
+  "role": "tutor",
+  "profilePicture": "picture"
+}
+
+###
+POST http://localhost:5002/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "user1"
+}
+
+###
+GET http://localhost:5002/api/users
+
+###
+GET http://localhost:5002/api/users/user1
+
+###
+GET http://localhost:5002/api/auth/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VyMSIsImVtYWlsIjoic3R1ZGVudDFAbWFpbC51dG9yb250by5jYSIsInJvbGUiOiJzdHVkZW50IiwicHJvZmlsZVBpY3R1cmUiOiJpY29uczgtdXNlci02NC5wbmciLCJkZXNjcmlwdGlvbiI6bnVsbCwiY2FtcHVzIjpudWxsLCJwcm9ncmFtT2ZTdHVkeSI6bnVsbCwiaWF0IjoxNjQ4NjAyNDY4fQ.bTSBmLIxS7C4axF3YRLUnQyesAgwZcrH5OIesTwsvMY
+
+###
+GET http://localhost:5002/api/auth/logout

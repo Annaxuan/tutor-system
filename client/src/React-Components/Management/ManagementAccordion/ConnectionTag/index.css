@@ -1,0 +1,18 @@
+.connectionTag.registered {
+}
+
+.connectionTag.unRegistered {
+    --primary-color: red;
+}
+
+.connectionTag div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.connectionTag div span {
+    line-height: 20px;
+    font-size: 15px;
+}

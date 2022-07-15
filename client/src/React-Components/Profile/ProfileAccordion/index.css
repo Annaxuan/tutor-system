@@ -1,0 +1,29 @@
+.accordion {
+    margin-bottom: 10px;
+}
+
+.accordionSummary {
+    display: flex;
+}
+
+.accordionSummary .title {
+    flex: 4;
+    color: black;
+}
+
+.accordionSummary .subTitle {
+    flex: 8;
+    color: gray;
+}
+
+.accordionDetails {
+    padding-top: 16px !important;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.accordionDetails .processing {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    user-select: none;
+}

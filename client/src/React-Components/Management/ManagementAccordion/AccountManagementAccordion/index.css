@@ -1,0 +1,42 @@
+.managementAccordion.account .managementAccordionSummary .gridBox {
+    flex: 1;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: [icon] 55px [id] 40px [username] 100px [role] 70px [email] 230px [campus] 100px [programOfStudy] 220px [description] repeat(auto-fill, minmax(200px, 1fr)) [end];
+}
+
+.managementAccordion.account .managementAccordionSummary .gridBox .entry {
+    align-self: center;
+}
+
+.managementAccordion.account .managementAccordionSummary .gridBox .entry {
+    overflow-wrap: break-word;
+}
+
+.managementAccordion.account .managementAccordionSummary .gridBox .entry.icon {
+    width: 100%;
+    height: 55px; /* This if for the object-fit */
+    position: relative;
+}
+
+.managementAccordion.account .managementAccordionSummary .gridBox .entry.icon img {
+    border-radius: 50%;
+    position: absolute;
+    left: calc(calc(100% - 55px) / 2);
+    width: 55px;
+    height: 55px;
+    object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+    object-position: center;
+}
+
+.managementAccordion.account .managementAccordionDetails .flexBox {
+    display: flex;
+}
+
+.managementAccordion.account .managementAccordionDetails .flexBox .column {
+    flex: 1;
+}
+
+.managementAccordion.account .managementAccordionDetails .flexBox .column h4 {
+    margin-bottom: 5px;
+}

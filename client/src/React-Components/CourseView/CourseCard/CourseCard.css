@@ -1,0 +1,30 @@
+.cardNum {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cardName {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card {
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+
+}
+.cardPic {
+    margin-top: 5px;
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  

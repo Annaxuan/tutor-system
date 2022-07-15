@@ -1,0 +1,27 @@
+.calenderContainer {
+    margin-top: 20px;
+    position: sticky;
+    top: 20px;
+}
+
+.courseTabs {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.courseTabs .courseTab.hasSchedule::after {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: -3px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+}
+

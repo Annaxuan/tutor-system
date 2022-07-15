@@ -1,0 +1,28 @@
+.managementAccordion {
+    margin-bottom: 10px;
+}
+
+.managementAccordion .deleteButton {
+    margin-top: 16px;
+}
+
+.managementAccordion .managementAccordionSummary {
+    display: flex;
+}
+
+.managementAccordion .managementAccordionDetails {
+    padding-top: 16px !important;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.managementAccordion .managementAccordionDetails .processing {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    user-select: none;
+}
+
+
+.managementCourse{
+    margin-bottom: 10px;
+}

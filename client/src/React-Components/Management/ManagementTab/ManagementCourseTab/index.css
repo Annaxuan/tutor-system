@@ -1,0 +1,71 @@
+.accountCourseTab .filterContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.accountCourseTab .searchContainer {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.accountCourseTab .searchContainer .searchField {
+    width: 100%;
+    margin-right: 16px;
+}
+
+.addCourseButton {
+    width: 100%;
+    background-color: #1E1EB3; 
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 3px solid grey;
+    box-shadow: 0 4px #999;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+.addCourseButton:hover {background-color: #3e8e41}
+
+.addCourseButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.profileTabs {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.spaceline{
+    padding: 5px;
+}
+
+
+.courseGridBox {
+    flex: 1;
+    display: grid;
+    gap: 16px;
+    /* grid-template-columns: [icon] 55px [id] 40px [username] 100px [role] 70px [email] 230px [campus] 100px [programOfStudy] 220px [description] repeat(auto-fill, minmax(200px, 1fr)) [end]; */
+}
+
+.courseIdFont {
+    font-size: large;
+}
+
+
+
+
+

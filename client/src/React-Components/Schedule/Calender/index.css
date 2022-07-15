@@ -1,0 +1,85 @@
+.calenderHeader {
+    display: flex;
+}
+
+.calenderHeaderControl {
+    flex: 2;
+}
+
+.calenderHeader h2 {
+    flex: 6;
+    user-select: none;
+    text-align: center;
+    width: 100%;
+}
+
+.calenderFooter {
+    display: flex;
+    gap: 5px;
+}
+
+.calenderFooterControl {
+    flex: 5;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+tr.header {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    user-select: none;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+}
+
+td.today {
+    border: 2px solid #0077b6; /* primary color */
+    border-radius: 100%;
+}
+
+td.selected {
+    background-color: #0077b6; /* primary color */
+    color: white;
+}
+
+td.hidden {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+td.selected.hidden {
+    color: white;
+}
+
+td:hover {
+    background-color: #3f51b5; /* secondary color */
+    color: white;
+    cursor: pointer;
+}
+
+td.occupied::after {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: -3px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+}

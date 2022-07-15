@@ -1,0 +1,30 @@
+.eventList {
+    margin-bottom: 50vh;
+}
+
+.eventListPlaceholder {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    user-select: none;
+}
+
+.divider {
+    margin: 40px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #0077b6;
+    position: relative;
+    user-select: none;
+}
+
+.divider span {
+    position: absolute;
+    margin: -10px 50%;
+    top: 2px;
+    left: -80px;
+    color: #3f51b5;
+    background: white;
+    width: 160px;
+    line-height: 20px;
+    font-size: 20px;
+}
