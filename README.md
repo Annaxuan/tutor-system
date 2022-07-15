@@ -2,10 +2,10 @@
 
 | Name          | Git names         |
 |---------------|-------------------|
-| Jiayi Su      | sujiayi317, jenny |
+| Wenxuan Sun   | Annaxuan, anna    |
 | Xingyu Yue    | XY-Yue, yuexy     |
 | HongCheng Wei | HomeletW          |
-| Wenxuan Sun   | Annaxuan, anna    |
+| Jiayi Su      | sujiayi317, jenny |
 
 # Phase 2
 
